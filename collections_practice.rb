@@ -1,11 +1,9 @@
 def sort_array_asc(array)
-  array.sort { |a,b|
-    a <=> b
-  }
+  array.sort
 end
 
 def sort_array_desc(array)
-  array.sort { |a,b| b <=> a }
+  array.sort.reverse
 end
 
 def sort_array_char_count(array)
