@@ -10,4 +10,4 @@ end
 
 def sort_array_char_count(array)
   new_array = []
-  new_array << 
+  new_array << array.sort do 
