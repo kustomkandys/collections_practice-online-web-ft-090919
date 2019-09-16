@@ -1,4 +1,6 @@
 def sort_array_asc(array)
+  new_asc_array = []
+  
   
 end
 
