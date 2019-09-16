@@ -28,3 +28,6 @@ def kesha_maker(array)
   new_array << string
 end
 end
+
+def find_a(array)
+  array.find 
