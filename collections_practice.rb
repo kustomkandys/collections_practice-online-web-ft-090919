@@ -30,7 +30,6 @@ end
 end
 
 def find_a(array)
-  array.select do |string|
-    string.starts_with?("a")
-  end
+  array.select { |string|
+    string.starts_with?("a")}
 end 
